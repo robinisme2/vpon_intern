@@ -1,0 +1,1 @@
+sudo docker run -d -p 9090:9090 -v /home/robin/Workspace/prometheus/test/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
